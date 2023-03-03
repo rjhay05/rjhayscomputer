@@ -1,0 +1,11 @@
+
+.about-card {
+    position: absolute;
+    top:25%;
+    left: 50%;
+    width: min(60%, 400px);
+}
+
+.about-card p {
+  padding: 1rem;
+}

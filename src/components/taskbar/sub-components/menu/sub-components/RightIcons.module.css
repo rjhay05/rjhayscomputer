@@ -1,0 +1,32 @@
+
+.about-icon,
+.projects-icon,
+.contact-icon,
+.resume-icon {
+  left: 10%;
+}
+
+.about-icon::after,
+.projects-icon::after,
+.contact-icon::after,
+.resume-icon::after {
+  top: 30%;
+  left: 130%;
+}
+
+.about-icon::after {
+  content: "About me";
+  width: 4rem;
+}
+
+.projects-icon::after {
+  content: "Projects";
+}
+
+.contact-icon::after {
+  content: "Contact";
+}
+
+.resume-icon::after {
+  content: "Resume";
+}

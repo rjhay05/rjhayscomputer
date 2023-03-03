@@ -1,0 +1,28 @@
+.icon {
+    left: 1%;
+}
+
+.icon::after{
+    content: "Social";
+}
+.folder-icons {
+    width: 50px;
+    height: 50px;
+}
+
+.folder-icons img {
+    width: 100%;
+    height: 100%;
+}
+
+.linkedin-icon::after{
+    content: 'LinkedIn';
+} 
+
+.github-icon::after {
+    content: 'GitHub';
+}
+
+.facebook-icon::after {
+    content: 'Facebook';
+}

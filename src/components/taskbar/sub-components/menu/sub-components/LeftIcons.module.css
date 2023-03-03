@@ -1,0 +1,17 @@
+.icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icons div, .power-options div  {
+  padding: 5px;
+  filter: invert();
+  width: 35px;
+  height: 35px;
+  align-self: center;
+}
+
+.power-options {
+    align-self: center;
+}

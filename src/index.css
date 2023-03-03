@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Mono;
+  src: url(./components//shared//fonts/VCR_OSD_MONO_1.001.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background:  #320021;
+  background-size: cover;
+}
+
+.flash-window-enter {
+  opacity: 0;
+}
+.flash-window-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+.flash-window-exit {
+  opacity: 1;
+}
+.flash-window-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+}
+
+.slide-up-enter {
+  transform: translateY(100%);
+}
+
+.slide-up-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all 200ms;
+ 
+}
+
+.slide-up-exit {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+.slide-up-exit-active {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: all 200ms;
+}
