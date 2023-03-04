@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.21.0"
+    "@babel/core": "^7.21.0",
+    "css-minimizer-webpack-plugin": "^4.2.2"
   }
 }
